@@ -8,3 +8,10 @@ Dados_y = Dados_x * Dados_x # multiplica os dados de x
 # e armazena em y
 
 plt.figure(figsize=(10,8),facecolor='gray') #Cria uma figura
+Ax = plt.axes() # cria os eixos para o grafico
+Ax.set_facecolor('white')
+plt.plot(Dados_x,Dados_y
+         color='red', marker= 'o'
+         linestyle='dashed',
+         markeredgecolor='black') 
+
