@@ -14,4 +14,5 @@ plt.plot(Dados_x,Dados_y,
          color='red', marker= 'o',
          linestyle='dashed',
          markeredgecolor='black') # plota o gráfico em x e y
+plt.xlabel("Eixo x")
 
